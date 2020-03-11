@@ -39,6 +39,10 @@ a:hover {
 .plr-20 {
 	padding: 0 20px;
 }
+
+.ptb-20 {
+	padding: 20px 0;
+}
 /*-------------------MENU'---------------------*/
 
 #menù {
@@ -238,4 +242,40 @@ a:hover {
 .section-3-col-dx p {
 	font-size: 16px;
 	font-weight: 400;
+}
+
+/* ----------------SECZIONE 4------------------- */
+
+#section-4 h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #031c4e;
+}
+
+.droplet-container img {
+	height: 100%;
+	width: 100%;
+
+}
+
+@media all and (min-width: 750px ) {
+	.angle-left::before {
+		content: '\f104';
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		padding-right: 5px;
+		color: black;
+		line-height: 15;
+		font-size: 30px;
+	}
+
+	.angle-right::after {
+		content: '\f105';
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		padding-right: 5px;
+		color: black;
+		line-height: 15;
+		font-size: 30px;
+	}
 }
