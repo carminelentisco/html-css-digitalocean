@@ -5,6 +5,10 @@ body {
 	font-size: 14px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /*------------------UILITY--------------------*/
 
 .lh-menù {
@@ -15,6 +19,26 @@ body {
 	width: 100%;
 }
 
+.mg-t50 {
+	margin-top: 50px;
+}
+
+.mg-b20 {
+	margin-bottom: 20px;
+}
+
+.mg-b50 {
+	margin-bottom: 50px;
+}
+
+.ptb-40 {
+	padding: 40px 0;
+
+}
+
+.plr-20 {
+	padding: 0 20px;
+}
 /*-------------------MENU'---------------------*/
 
 #menù {
@@ -172,7 +196,7 @@ body {
 /*------------------JUMBOTRON-2--------------- */
 
 #loghi h3 {
-	color: grey;
+	color: #031c4e;
 }
 
 #loghi img {
@@ -181,4 +205,37 @@ body {
 
 .lh-loghi {
 	line-height: 10;
+}
+
+/* -----------------SEZIONE 3----------------- */
+
+.section-3-header h2 {
+	font-weight: 700;
+	color: #031c4e;
+}
+
+.section-3-header p {
+	font-weight: 400;
+	font-size: 23px;
+}
+
+.blockquote-mod {
+	border-left: 4px solid grey;
+}
+
+.blockquote-mod p {
+	font-weight: 400;
+	font-size: 20px;
+	color: grey;
+}
+
+.section-3-col-dx h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #031c4e;
+}
+
+.section-3-col-dx p {
+	font-size: 16px;
+	font-weight: 400;
 }
