@@ -47,6 +47,12 @@ a:hover {
 .ptb-20 {
 	padding: 20px 0;
 }
+
+.azz {
+	color: #3c8bff;
+
+}
+
 /*-------------------MENU'---------------------*/
 
 #menù {
@@ -309,4 +315,24 @@ a:hover {
 
 #sezione-5 a {
 	font-weight: 500;
+}
+
+/* ----------------SEZIONE 6 --------------------*/
+
+#section-6 {
+	background-color: #0033af;
+	color: #fff;
+}
+
+#section-6 table tr td {
+	padding: 10px;
+}
+
+.tab {
+	max-width: 100%;
+	width: 100%;
+}
+
+.border-b {
+	border-bottom: 1px solid #fff;
 }
