@@ -1,0 +1,53 @@
+/*-----------------GENERAL RULE----------------*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+/*------------------UILITY--------------------*/
+
+.lh-menù {
+	line-height: 4;
+}
+
+/*-------------------MENU'---------------------*/
+
+#menù {
+	background-color: #fff;
+	height: 60px;
+}
+
+#menù img {
+	height: 80%;
+	width: 100%;
+}
+
+#menù ul li a {
+	color: #031c4e;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+#menù ul li {
+	padding: 0 5px;
+}
+
+#menù ul li a:hover {
+	text-decoration: none;
+}
+
+#menù ul li .btn-default {
+	color: #3c8bff;
+	border-color: #3c8bff;
+}
+
+.angle-down::after {
+	content: '\f107';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	padding-left: 3px;
+}
+
+/*------------------JUMBOTRON------------------ */
