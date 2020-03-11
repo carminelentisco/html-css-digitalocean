@@ -74,7 +74,7 @@ body {
 	}
 }
 
-/*------------------JUMBOTRON------------------ */
+/*------------------JUMBOTRON-1--------------- */
 
 #jumbotron {
 	background-image: url(../Assets/bg-banner-home.jpg);
@@ -82,6 +82,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 #jumbotron h1 {
@@ -165,4 +166,19 @@ body {
 
 .p-jdx {
 	padding: 23px 0;
+}
+
+
+/*------------------JUMBOTRON-2--------------- */
+
+#loghi h3 {
+	color: grey;
+}
+
+#loghi img {
+	width: 100%;
+}
+
+.lh-loghi {
+	line-height: 10;
 }
