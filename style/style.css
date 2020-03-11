@@ -53,6 +53,10 @@ a:hover {
 
 }
 
+.strong {
+	font-weight: 700;
+}
+
 /*-------------------MENU'---------------------*/
 
 #menù {
@@ -335,4 +339,36 @@ a:hover {
 
 .border-b {
 	border-bottom: 1px solid #fff;
+}
+
+/* -----------------SEZIONE 7-------------------- */
+
+#section-7 h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #031c4e;
+}
+
+#section-7 p {
+	font-size: 15px;
+	padding: 15px 0;
+}
+
+.rockerbox {
+	background-color: #fff;
+}
+
+.db {
+	display: block;
+}
+
+.lh-15 {
+	line-height: 15;
+}
+
+
+@media all and (max-width: 750px ) {
+	#section-7 i {
+		display: none;
+	}
 }
