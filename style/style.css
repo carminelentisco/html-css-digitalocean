@@ -383,3 +383,44 @@ a:hover {
 	background-color: #fff;
 	padding: 5px 10px;
 }
+
+/* --------------------FOOTER-----------------------*/
+
+#footer {
+	background-color: #031c4e;
+}
+
+#footer  ul li {
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+
+#footer .social ul li a i {
+	color: #596786;
+}
+
+.grey-1 {
+	color: #7e89a0;
+}
+
+.grey-2 {
+	color: #596786;
+}
+
+.footer-info-1 span {
+	display: block;
+}
+
+.footer-info-2-list {
+	list-style: none;
+}
+
+.footer-header-list {
+	font-weight: 700;
+	color: #fff;
+}
+
+.footer-body-list {
+	font-weight: 500;
+	color: #596786;
+}
