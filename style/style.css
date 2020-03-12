@@ -73,15 +73,15 @@ a:hover {
 	width: 100%;
 }
 
+#menù ul li {
+	padding: 0 5px;
+}
+
 #menù ul li a {
 	color: #031c4e;
 	font-size: 16px;
 	font-weight: 400;
 
-}
-
-#menù ul li {
-	padding: 0 5px;
 }
 
 #menù ul li a:hover {
@@ -153,10 +153,6 @@ a:hover {
 	padding: 10px;
 }
 
-#jumbotron .bnt-blue a {
-	color: #fff;
-}
-
 #jumbotron .p-sx {
 	color: #bbcbfd;
 }
@@ -167,13 +163,8 @@ a:hover {
 	font-weight: 700;
 }
 
-.google img {
-	height: 20px;
-}
-
-.p-dx span {
-	color: #3c8bff;
-	text-decoration: underline;
+#jumbotron .bnt-blue a {
+	color: #fff;
 }
 
 .jumbotron-dx {
@@ -214,6 +205,15 @@ a:hover {
 	padding: 23px 0;
 }
 
+.google img {
+	height: 20px;
+}
+
+.p-dx span {
+	color: #3c8bff;
+	text-decoration: underline;
+}
+
 
 /*------------------JUMBOTRON-2--------------- */
 
@@ -231,6 +231,10 @@ a:hover {
 
 /* -----------------SEZIONE 3----------------- */
 
+.blockquote-mod {
+	border-left: 4px solid grey;
+}
+
 .section-3-header h2 {
 	font-weight: 700;
 	color: #031c4e;
@@ -239,10 +243,6 @@ a:hover {
 .section-3-header p {
 	font-weight: 400;
 	font-size: 23px;
-}
-
-.blockquote-mod {
-	border-left: 4px solid grey;
 }
 
 .blockquote-mod p {
@@ -275,12 +275,6 @@ a:hover {
 	color: #031c4e;
 }
 
-.droplet-container img {
-	height: 100%;
-	width: 100%;
-
-}
-
 .circle {
 	border: 1px solid #3c8bff;
   border-radius: 100%;
@@ -291,6 +285,12 @@ a:hover {
 
 .circle:hover {
 	background-color: #3c8bff;
+}
+
+.droplet-container img {
+	height: 100%;
+	width: 100%;
+
 }
 
 @media all and (min-width: 750px ) {
@@ -423,10 +423,6 @@ a:hover {
 	color: #596786;
 }
 
-.footer-info-1 span {
-	display: block;
-}
-
 .footer-info-2-list {
 	list-style: none;
 }
@@ -446,21 +442,6 @@ a:hover {
 	right: 10px;
 	bottom: 10px;
 }
-
-/* TOOLTIP STYLES */
-
-.tooltip {
-  position: relative;
-  width: 300px;
-  padding: 10px;
-  background-color: #fff;
-  line-height: 1.45;
-  border-radius: 5px;
-  /* Ombreggiatura */
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
-}
-
-/* Prova */
 
 .nuvola {
 	display: inline-block;
@@ -498,4 +479,8 @@ a:hover {
 .chat img {
 	height: 40px;
 	width: 50px;
+}
+
+.footer-info-1 span {
+	display: block;
 }
