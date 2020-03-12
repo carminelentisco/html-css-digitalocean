@@ -366,9 +366,20 @@ a:hover {
 	line-height: 15;
 }
 
-
 @media all and (max-width: 750px ) {
 	#section-7 i {
 		display: none;
 	}
+}
+
+/* -------------------SEZIONE 8-------------------- */
+
+#section-8 {
+	background-color: #002ca7;
+	color: #fff;
+}
+
+#section-8 a {
+	background-color: #fff;
+	padding: 5px 10px;
 }
