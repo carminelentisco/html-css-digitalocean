@@ -35,6 +35,10 @@ a:hover {
 	margin-bottom: 50px;
 }
 
+.p5 {
+	padding: 5px;
+}
+
 .ptb-40 {
 	padding: 40px 0;
 
@@ -390,6 +394,18 @@ a:hover {
 	background-color: #031c4e;
 }
 
+#fish {
+	bottom: 20px;
+	right: 20px;
+	background-color: #006aff;
+	border-radius: 5px;
+}
+
+#fish img {
+	height: 40px;
+	width: 50px;
+}
+
 #footer  ul li {
 	padding-bottom: 5px;
 	font-size: 10px;
@@ -423,4 +439,63 @@ a:hover {
 .footer-body-list {
 	font-weight: 500;
 	color: #596786;
+}
+
+.p-f {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+/* TOOLTIP STYLES */
+
+.tooltip {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  background-color: #fff;
+  line-height: 1.45;
+  border-radius: 5px;
+  /* Ombreggiatura */
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+
+/* Prova */
+
+.nuvola {
+	display: inline-block;
+	position: relative;
+	line-height: 1.45;
+	width: 165px;
+	background: #fff;
+	font-size: 10px;
+	font-weight: 700;
+	border-radius: 5px;
+	padding: 5px 8px;
+	filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+}
+
+.nuvola::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  /* Rotazione */
+  transform: rotate(45deg);
+}
+
+.chat {
+	display: inline-block;
+	margin-left: 10px;
+	background-color: #006aff;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.chat img {
+	height: 40px;
+	width: 50px;
 }
