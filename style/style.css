@@ -54,11 +54,18 @@ a:hover {
 
 .azz {
 	color: #3c8bff;
-
 }
 
 .strong {
 	font-weight: 700;
+}
+
+.db {
+	display: block;
+}
+
+.lh-15 {
+	line-height: 15;
 }
 
 /*-------------------MENU'---------------------*/
@@ -231,6 +238,10 @@ a:hover {
 
 /* -----------------SEZIONE 3----------------- */
 
+#section-3 {
+	padding: 40px 20px;
+}
+
 .blockquote-mod {
 	border-left: 4px solid grey;
 }
@@ -362,14 +373,6 @@ a:hover {
 	background-color: #fff;
 }
 
-.db {
-	display: block;
-}
-
-.lh-15 {
-	line-height: 15;
-}
-
 @media all and (max-width: 750px ) {
 	#section-7 i {
 		display: none;
@@ -392,18 +395,7 @@ a:hover {
 
 #footer {
 	background-color: #031c4e;
-}
-
-#fish {
-	bottom: 20px;
-	right: 20px;
-	background-color: #006aff;
-	border-radius: 5px;
-}
-
-#fish img {
-	height: 40px;
-	width: 50px;
+	padding-top: 40px;
 }
 
 #footer  ul li {
@@ -423,6 +415,10 @@ a:hover {
 	color: #596786;
 }
 
+.footer-info-1 span {
+	display: block;
+}
+
 .footer-info-2-list {
 	list-style: none;
 }
@@ -437,10 +433,18 @@ a:hover {
 	color: #596786;
 }
 
+
+/* --------------------------------------------------- */
+
+
 .p-f {
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
+}
+
+.p-r {
+	position: relative;
 }
 
 .nuvola {
@@ -474,13 +478,29 @@ a:hover {
 	background-color: #006aff;
 	padding: 5px;
 	border-radius: 10px;
+	vertical-align: bottom;
 }
 
-.chat img {
+.red-box {
+	display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border: 3px solid white;
+  text-align: center;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}
+
+.img-chat {
+	background-image: url('../Assets/chat-img.png');
+	background-size: cover;
+	background-position: center;
 	height: 40px;
 	width: 50px;
-}
 
-.footer-info-1 span {
-	display: block;
 }
